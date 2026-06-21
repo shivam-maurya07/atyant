@@ -78,6 +78,7 @@ function ParticleMorph({
       ? Math.min(window.devicePixelRatio, 3)
       : Math.min(window.devicePixelRatio, 2)
   );
+  
     renderer.setSize(width, height);
     mount.appendChild(renderer.domElement);
 
@@ -725,10 +726,10 @@ export default function AchievementsPage() {
             <div className="aa-hero-stage">
               <ParticleMorph
                 phrases={["Building India's Career Infrastructure", 'Milestones that define Atyant']}
-                color="#a99cec"
+                color="#b3a6f0"
                 count={
                   window.innerWidth < 768
-                    ? 1800
+                    ? 4000
                     : 4200
                 }
                 holdMs={2000}
