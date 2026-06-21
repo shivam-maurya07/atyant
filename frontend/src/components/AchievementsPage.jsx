@@ -696,7 +696,7 @@ export default function AchievementsPage() {
                 <path d="M18.5 3l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7z" fill="currentColor" opacity="0.85" />
               </svg>
             </span>
-            अत्यnT
+            अत्यanT
           </button>
           <nav className="aa-nav">
             <button className="aa-nav-btn" onClick={() => navigate('/home')}>Home</button>
